@@ -37,7 +37,7 @@ class Complex{
         return matrix;
     }
 
-    segment_data(){
+    segment_data(){ //Note my use case involved special preparation of the data, involving grabbing the first 50 then adding 1 after.
         if(this.data_holder.length == 50){
             this.segments.push(this.transform_data(this.data_holder.slice(0, (this.segment_row * this.segment_size))));
             for(let i = 0; i < 50; i += (this.segment_row * this.segment_size)){
