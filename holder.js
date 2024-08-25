@@ -13,15 +13,7 @@ class Complex{
         return data.map(value => (value - mean) / std);
     }
     retrieve_data(){
-        if(this.data_holder.length > 0){
-            let lastG = engine.history.first();
-            this.data_holder.unshift(lastG.bust);
-        } else {
-            let last50 = engine.history.toArray(50);
-            for(let i = 0; i < 50; i++){
-                this.data_holder.push(last50[i].bust);
-            }
-        }
+        //push data to data_holder
 
         //this.data_holder = this.normalize_data(this.data_holder);
         
