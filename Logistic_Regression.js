@@ -129,10 +129,10 @@ class Complex{
 
 //Logistic Regression class using this.segments as our X and this.outputs as our Y
 
-//Further clarifction into the context, lets say we have data like [2.09,	1.37,	1.19,	1.52,	4.13,	19.18, 1.14, 3.56, 1.21, 11.34]
+//Further clarifction into the context, lets say we have data like [2.09, 1.37,	1.19, 1.52,	4.13, 19.18, 1.14, 3.56, 1.21, 11.34]
 //X = [[1.37, 1.19, 1.52, 4.13], [1.14, 3.56, 1.21, 11.34]] Y = [2.09, 19.18]
 
-//Whenever a new number is drawn lets say now we have [7.41, 2.09,	1.37,	1.19,	1.52,	4.13,	19.18, 1.14, 3.56, 1.21, 11.34]
+//Whenever a new number is drawn lets say now we have [7.41, 2.09, 1.37, 1.19, 1.52, 4.13, 19.18, 1.14, 3.56, 1.21, 11.34]
 //We will use the catchup_segment to make actual predictions outside of training, in this example catchup_segment = [7.41, 2.09, 1.37, 1.19], this would output a number between 0 and 1.
 
 //This is everything the code above does, then we pass these values into the regression model.
