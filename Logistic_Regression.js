@@ -2,7 +2,6 @@
 
 //Within the context of this example, a new number is generated every few seconds, and the model is going to guess the trend of the number through a outputted number between 0.0 and 1.0.
 
-//Data will be shown after the code.
 
 
 //-----------------||Setup|| -- Not important to the model
